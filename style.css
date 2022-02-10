@@ -25,7 +25,7 @@ nav {
   padding: 7px 13px;
   color: #fff;
   border-radius: 3px;
-  margin: 0px 30px;
+  margin: 30px;
 }
 
 nav ul {
@@ -36,7 +36,6 @@ nav ul {
 nav ul li {
   display: inline-block;
   line-height: 80px;
-  margin: 0 spx;
 }
 
 nav ul li a {
@@ -68,14 +67,15 @@ section.presentation {
   position: absolute;
   background: #1c1a19 no-repeat;
   height: calc(100vh - 80px);
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 section.textimg {
   display: flex;
 }
+
 .homeimg {
   float: right;
   width: 39%;
@@ -84,7 +84,6 @@ section.textimg {
 .title {
   color: #ff6b00;
   position: static;
-  left: 0px;
   padding-left: 143px;
   padding-top: 129px;
   font-style: normal;
@@ -153,6 +152,7 @@ section.textimg {
   .checkbtn {
     display: block;
   }
+
   ul {
     position: fixed;
     width: 100%;

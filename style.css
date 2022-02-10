@@ -1,4 +1,5 @@
 /* general */
+
 * {
   padding: 0;
   margin: 0;
@@ -6,22 +7,25 @@
   list-style: none;
   box-sizing: border-box;
 }
+
 /* general */
 
 /* Header */
+
 nav {
   background: #3e3c3c;
   height: 80px;
   width: 100%;
 }
+
 .source {
   position: static;
   line-height: 80px;
-  font-size: 20;
+  font-size: 20px;
   padding: 7px 13px;
   color: #fff;
   border-radius: 3px;
-  margin: 0 30px;
+  margin: 0px 30px;
 }
 
 nav ul {
@@ -59,6 +63,7 @@ nav ul li a {
 /* Header */
 
 /* presentation */
+
 section.presentation {
   position: absolute;
   background: #1c1a19 no-repeat;
@@ -82,8 +87,6 @@ section.textimg {
   left: 0px;
   padding-left: 143px;
   padding-top: 129px;
-
-  font-family: Crete Round;
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
@@ -141,6 +144,7 @@ section.textimg {
 /* Presentation */
 
 /* mobile version */
+
 @media (max-width: 800px) {
   .checkbtn {
     display: block;

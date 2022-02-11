@@ -1,87 +1,96 @@
-/* general */
-
 * {
-  padding: 0;
   margin: 0;
-  text-decoration: none;
-  list-style: none;
+  padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
-/* general */
-
-/* Header */
+/* header */
 
 nav {
-  background: #3e3c3c;
-  height: 80px;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background: #3c3a39;
+  color: #fff;
 }
 
-.source {
-  position: static;
-  line-height: 80px;
-  font-size: 20px;
-  padding: 7px 13px;
+h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  text-decoration: none;
   color: #fff;
-  border-radius: 3px;
-  margin: 30px;
 }
 
 nav ul {
-  float: right;
-  margin-right: 20px;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
+nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
 }
 
-nav ul li a {
-  color: #fff;
-  font-size: 20px;
-  padding: 7px 13px;
-  border-radius: 3px;
+nav li:hover {
+  background: #555;
 }
 
 .checkbtn {
-  font-size: 30px;
-  color: #fff;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 18px;
   display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
 }
 
 #check {
   display: none;
 }
 
-/* Header */
+/* header */
 
-/* presentation */
+/*presentation */
 
 section.presentation {
-  position: absolute;
   background: #1c1a19 no-repeat;
-  height: calc(100vh - 80px);
-  left: 0;
-  right: 0;
-  bottom: 0;
+  height: 100vh;
 }
 
-section.textimg {
+.personal-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media {
+  margin-top: 30px;
   display: flex;
 }
 
-.homeimg {
-  float: right;
-  width: 39%;
+.social-media ul {
+  display: flex;
+  margin: 10px;
 }
 
-.title {
+.social-media ul li a {
+  color: #fff;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
   color: #ff6b00;
   position: static;
   padding-left: 143px;
@@ -92,7 +101,7 @@ section.textimg {
   line-height: 81px;
 }
 
-.subtitle {
+h3 {
   color: #fff;
   padding-top: 24px;
   font-size: 32px;
@@ -102,11 +111,7 @@ section.textimg {
   padding-left: 143px;
 }
 
-.about-me {
-  float: left;
-}
-
-.description {
+p {
   color: #f4f5f7;
   height: 123px;
   padding-top: 24px;
@@ -118,77 +123,90 @@ section.textimg {
   margin-right: 30px;
 }
 
-.social-media {
-  position: absolute;
-  left: 2.5%;
-  right: 96.25%;
-  top: 350px;
-  bottom: 91.87%;
-}
-
-.social-media ul li {
+.home {
   display: flex;
-  padding: 15px;
-}
-
-.social-media ul li a i {
-  color: #fff;
 }
 
 #img1 {
-  display: block;
-  position: absolute;
+  display: flex;
 }
 
 #img2 {
   display: none;
 }
 
-/* Presentation */
+/* presentation */
 
-/* mobile version */
-
-@media (max-width: 800px) {
-  .checkbtn {
-    display: block;
+@media (max-width: 840px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  ul {
-    position: fixed;
+  nav h2 {
+    padding-top: 5px;
+    margin-left: 30px;
+  }
+
+  nav ul {
+    position: absolute;
     width: 100%;
-    height: 100%;
-    background: #3c3a39;
-    top: 80px;
+    height: 100vh;
+    flex-direction: column;
+    top: 50px;
     left: -100%;
-    text-align: center;
     transition: all 0.5s;
+    background: #3c3a39;
   }
 
   nav ul li {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
+    text-align: center;
   }
 
-  nav ul li a {
-    font-size: 32px;
+  nav li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .checkbtn {
+    display: flex;
   }
 
   #check:checked ~ ul {
     left: 0;
   }
 
+  .about-me {
+    align-self: center;
+  }
+
   h1 {
-    font-size: 65px;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    padding-left: 50px;
   }
 
   h3 {
+    font-style: normal;
+    font-weight: bold;
     font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
   }
 
-  pre {
+  p {
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
-    margin-right: 30px;
+    line-height: 24px;
+    padding-left: 50px;
+  }
+
+  .social-media ul li {
+    padding-left: 50px;
+    padding-top: 50px;
   }
 
   #img1 {
@@ -196,8 +214,6 @@ section.textimg {
   }
 
   #img2 {
-    display: block;
+    display: flex;
   }
 }
-
-/* mobile version */

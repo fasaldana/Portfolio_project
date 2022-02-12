@@ -5,6 +5,13 @@
   list-style: none;
 }
 
+hr {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 24px;
+}
+
 /* header */
 
 nav {

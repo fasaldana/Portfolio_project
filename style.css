@@ -5,6 +5,19 @@
   list-style: none;
 }
 
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+hr {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 24px;
+}
+
 /* header */
 
 nav {
@@ -90,7 +103,7 @@ section.presentation {
   flex-direction: column;
 }
 
-h1 {
+.title {
   color: #ff6b00;
   position: static;
   padding-left: 143px;
@@ -101,7 +114,7 @@ h1 {
   line-height: 81px;
 }
 
-h3 {
+.subtitle {
   color: #fff;
   padding-top: 24px;
   font-size: 32px;
@@ -111,7 +124,7 @@ h3 {
   padding-left: 143px;
 }
 
-p {
+.description {
   color: #f4f5f7;
   height: 123px;
   padding-top: 24px;
@@ -137,7 +150,7 @@ p {
 
 /* presentation */
 
-@media (max-width: 1024px) {
+@media (max-width: 950px) {
   nav {
     flex-direction: column;
     align-items: flex-start;
@@ -151,12 +164,13 @@ p {
   nav ul {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     top: 50px;
-    left: -100%;
+    right: -100%;
     transition: all 0.5s;
     background: #3c3a39;
+    overflow-y: auto;
   }
 
   nav ul li {
@@ -173,21 +187,21 @@ p {
   }
 
   #check:checked ~ ul {
-    left: 0;
+    right: 0;
   }
 
   .about-me {
     align-self: center;
   }
 
-  h1 {
+  .title {
     font-size: 56px;
     line-height: 64px;
     letter-spacing: 0.37px;
     padding-left: 50px;
   }
 
-  h3 {
+  .subtitle {
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -197,7 +211,7 @@ p {
     padding-left: 50px;
   }
 
-  p {
+  .description {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

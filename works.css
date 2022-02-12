@@ -1,0 +1,160 @@
+section.works {
+  background: #e5e5e5;
+  height: 100%;
+}
+
+.first-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.works-title {
+  padding-top: 33px;
+  height: 81px;
+  margin-left: 100px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.workname {
+  color: black;
+  height: 36px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 30px;
+}
+
+.work-desc {
+  left: 0;
+  top: 48px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  align-self: center;
+}
+
+.worksimg {
+  margin-top: 80px;
+  width: 28rem;
+  align-self: center;
+}
+
+.works-tools {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.works ul {
+  display: flex;
+  padding: 10px 12px;
+}
+
+.works ul li {
+  margin-left: 12px;
+  text-decoration: none;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+}
+
+.works ul li a {
+  text-decoration: none;
+  color: #091e42;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.works-tools ul li:hover {
+  background-color: aquamarine;
+}
+
+.works-btn {
+  margin-left: 24px;
+  height: 2rem;
+  width: 5rem;
+  align-self: flex-start;
+  background: #ff6b00;
+  color: #fff;
+}
+
+/* work cards */
+
+.work-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  background-image: url("media/ImgPlaceholder(1).png");
+  background-repeat: repeat-y;
+  margin-left: 30px;
+  height: 327px;
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box-title {
+  margin-top: 60px;
+  width: 295px;
+  height: 81px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.box-desc {
+  width: 295px;
+  height: 87px;
+  left: 16px;
+  top: 101px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.box-btn-tools {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  margin-left: 16px;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.box-btn-tools button {
+  width: 61px;
+  height: 40px;
+  left: 175px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.box-btn {
+  width: 327px;
+  height: 48px;
+  background: #ff6b00;
+}
+
+/* work cards */
+
+@media (min-width: 900px) {
+  .work-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

@@ -5,6 +5,12 @@
   list-style: none;
 }
 
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
 hr {
   width: 80%;
   text-align: center;

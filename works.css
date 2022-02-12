@@ -21,7 +21,6 @@ section.works {
 .workname {
   color: black;
   height: 36px;
-  left: 0px;
   top: 0px;
   font-style: normal;
   font-weight: normal;
@@ -31,7 +30,7 @@ section.works {
 }
 
 .work-desc {
-  left: 0px;
+  left: 0;
   top: 48px;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -80,7 +79,6 @@ section.works {
 }
 
 .works-btn {
-  margin-top: 0;
   margin-left: 24px;
   height: 2rem;
   width: 5rem;
@@ -117,7 +115,7 @@ section.works {
   font-weight: normal;
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .box-desc {
@@ -129,7 +127,7 @@ section.works {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .box-btn-tools {
@@ -144,7 +142,6 @@ section.works {
   width: 61px;
   height: 40px;
   left: 175px;
-  top: 0px;
   background: rgba(255, 255, 255, 0.24);
 }
 
@@ -153,6 +150,7 @@ section.works {
   height: 48px;
   background: #ff6b00;
 }
+
 /* work cards */
 
 @media (min-width: 900px) {

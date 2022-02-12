@@ -57,7 +57,23 @@ section.skills {
   gap: 20px;
 }
 
+.lenguage {
+  display: flex;
+  flex-direction: column;
+}
+
+.frameworks {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
 .list-title {
+  gap: 20px;
   height: 24px;
   left: 49.46px;
   top: 8.73px;
@@ -66,6 +82,10 @@ section.skills {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+}
+
+.list-title img {
+  margin-right: 10px;
 }
 
 .list-items {

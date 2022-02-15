@@ -1,9 +1,9 @@
 footer {
   display: grid;
   grid-template-columns: 24px 1fr 24px;
-  grid-template-rows: 1fr 1.5fr,
-
+  grid-template-rows: 2fr 3fr;
 }
+
 .contact {
   text-align: center;
   padding: 120px 0 73px;
@@ -21,7 +21,8 @@ footer {
   justify-content: center;
 }
 
-.input-1, .input-2 {
+.input-1,
+.input-2 {
   border-style: none;
   border-bottom: solid #ddd 1px;
   padding: 14px 14px;
@@ -30,7 +31,6 @@ footer {
 
 .ct-submit {
   color: white;
-  font-size: large;
   font-weight: 700;
   padding: 0.8rem 0.3rem;
   background-color: #ff6b00;

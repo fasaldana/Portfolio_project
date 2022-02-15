@@ -20,3 +20,30 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
+
+.input-1, .input-2 {
+  border-style: none;
+  border-bottom: solid #ddd 1px;
+  padding: 14px 14px;
+  margin-bottom: 1rem;
+}
+
+.ct-submit {
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  padding: 0.8rem 0.3rem;
+  background-color: #ff6b00;
+  font-size: 17px;
+  line-height: 24px;
+  border-style: none;
+  width: 30vh;
+  align-self: center;
+}
+
+.ct-submit:hover {
+  background-color: #fff;
+  color: #ff6b00;
+  border-style: double;
+  border-color: #ff6b00;
+}

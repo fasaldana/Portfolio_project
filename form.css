@@ -40,10 +40,3 @@ footer {
   width: 30vh;
   align-self: center;
 }
-
-.ct-submit:hover {
-  background-color: #fff;
-  color: #ff6b00;
-  border-style: double;
-  border-color: #ff6b00;
-}

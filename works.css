@@ -78,6 +78,7 @@ section.works {
 }
 
 .works-btn {
+  border-style: none;
   margin-left: 24px;
   height: 2rem;
   width: 5rem;
@@ -99,6 +100,7 @@ section.works {
   background-image: url("media/ImgPlaceholder(1).png");
   background-repeat: repeat-y;
   margin-left: 30px;
+  margin-bottom: 30px;
   height: 327px;
   width: 327px;
   display: flex;
@@ -138,6 +140,8 @@ section.works {
 }
 
 .box-btn-tools button {
+  border-style: none;
+  color: #fff;
   width: 61px;
   height: 40px;
   left: 175px;
@@ -145,6 +149,8 @@ section.works {
 }
 
 .box-btn {
+  color: #fff;
+  border-style: none;
   width: 327px;
   height: 48px;
   background: #ff6b00;

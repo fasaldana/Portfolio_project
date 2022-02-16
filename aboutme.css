@@ -36,6 +36,7 @@ section.about-me-sec {
 }
 
 .resume-btn {
+  border-style: none;
   padding: 12px;
   margin-left: 24px;
   width: 161px;

@@ -13,6 +13,7 @@ footer {
 }
 
 .form {
+  font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   grid-column: 2/3;
   grid-row: 2/3;
   padding-bottom: 124px;
@@ -39,4 +40,8 @@ footer {
   border-style: none;
   width: 30vh;
   align-self: center;
+}
+
+textarea {
+  font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

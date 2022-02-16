@@ -1,4 +1,4 @@
- .btn-style:hover {
+.btn-style:hover {
   background-color: #fff;
   color: #ff6b00;
   border-style: double;
@@ -6,11 +6,11 @@
 }
 
 .btn-style:active {
- background-color: #e05304;
- color: #fff;
+  background-color: #e05304;
+  color: #fff;
 }
 
 .btn-style:disabled {
- background-color: #f4f1f0;
- color: #5b5957;
+  background-color: #f4f1f0;
+  color: #5b5957;
 }

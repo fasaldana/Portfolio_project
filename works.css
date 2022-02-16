@@ -100,6 +100,7 @@ section.works {
   background-image: url("media/ImgPlaceholder(1).png");
   background-repeat: repeat-y;
   margin-left: 30px;
+  margin-bottom: 30px;
   height: 327px;
   width: 327px;
   display: flex;

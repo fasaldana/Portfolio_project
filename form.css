@@ -1,25 +1,25 @@
 footer {
-  display: grid;
-  grid-template-columns: 24px 1fr 24px;
-  grid-template-rows: 2fr 3fr;
+  display: flex;
 }
 
 .contact {
   text-align: center;
   padding: 120px 0 73px;
-  grid-column: 2/3;
-  grid-row: 1/2;
   color: #172b4d;
+  font-size: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .form {
-  font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  grid-column: 2/3;
-  grid-row: 2/3;
+  font-family: "Inter", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
   padding-bottom: 124px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .input-1,
@@ -43,5 +43,6 @@ footer {
 }
 
 textarea {
-  font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Inter", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
 }

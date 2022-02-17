@@ -232,3 +232,10 @@ section.presentation {
     display: flex;
   }
 }
+
+/* ↓animations↓ */
+
+.logo {
+  transform: rotate(360deg);
+  transition: 2s;
+}

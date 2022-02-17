@@ -39,3 +39,28 @@ footer {
   width: 30vh;
   align-self: center;
 }
+
+@media (min-width: 850px) {
+  .form-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact {
+    color: #262626;
+    margin: 130px 130px 135px;
+    text-align: start;
+    font-size: 40px;
+  }
+
+  .form {
+    margin: 130px 130px 135px;
+  }
+
+  .ct-submit {
+    align-self: flex-start;
+    top: calc(50% - 48px / 2 + 141px);
+    width: 122px;
+    height: 48px;
+    left: 0;
+  }
+}

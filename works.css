@@ -158,9 +158,15 @@ section.works {
 
 /* work cards */
 
-@media (min-width: 900px) {
+@media (min-width: 850px) {
   .work-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 327px 1fr;
+    margin: 0 12%;
+  }
+
+  .first-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

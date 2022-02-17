@@ -104,9 +104,14 @@ section.skills {
   align-self: center;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 850px) {
   .about-me-skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 140px;
+  }
+
+  .about-me-skills ul {
+    align-items: center;
   }
 }

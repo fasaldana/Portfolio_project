@@ -45,6 +45,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
+
   .contact {
     color: #262626;
     margin: 130px 130px 135px;

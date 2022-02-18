@@ -108,7 +108,7 @@ section.skills {
   display: none;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 1000px) {
   .about-me-skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

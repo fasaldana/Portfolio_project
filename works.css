@@ -164,7 +164,7 @@ section.works {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .worksimg {
+  .worksimg:hover {
     transform: scale(1.5);
     transition: 0.5s;
   }

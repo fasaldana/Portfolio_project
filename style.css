@@ -194,6 +194,21 @@ section.presentation {
     align-self: center;
   }
 
+  .about-me p {
+    animation: 1s slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 20%;
+    }
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+  }
+
   .title {
     font-size: 56px;
     line-height: 64px;

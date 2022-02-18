@@ -29,8 +29,6 @@ section.works {
 }
 
 .work-desc {
-  left: 0;
-  top: 48px;
   margin-left: 2rem;
   margin-right: 2rem;
   font-style: normal;
@@ -161,12 +159,50 @@ section.works {
 @media (min-width: 850px) {
   .work-cards {
     display: grid;
-    grid-template-columns: 1fr 327px 1fr;
-    margin: 0 12%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 24px 12%;
+  }
+
+  .box-btn {
+    display: none;
+    align-self: flex-end;
+  }
+
+  .box:hover {
+    background: url("media/ImgPlaceholderhover.png");
+  }
+
+  .box:hover .box-title,
+  .box:hover .box-desc,
+  .box:hover .box-btn-tools {
+    display: none;
+  }
+
+  .box:hover .box-btn {
+    display: block;
+    font-size: 17px;
   }
 
   .first-card {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .worksimg {
+    width: 100%;
+  }
+
+  .first-card-text {
+    margin-top: 140px;
+    padding-right: 151px;
+  }
+
+  .first-card-img {
+    width: 60%;
+    margin-left: 224px;
+  }
+
+  .box-btn-tools {
+    background: rgba(255, 255, 255, 0.24);
   }
 }

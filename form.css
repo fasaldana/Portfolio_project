@@ -43,7 +43,7 @@ footer {
 @media (min-width: 850px) {
   .form-contact {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
   }
   .contact {
     color: #262626;

@@ -47,7 +47,7 @@ section.about-me-sec {
   line-height: 24px;
 }
 
-.about-me-img {
+.about-me-img-mobile {
   align-self: flex-end;
 }
 
@@ -104,6 +104,10 @@ section.skills {
   align-self: center;
 }
 
+.about-me-img {
+  display: none;
+}
+
 @media (min-width: 850px) {
   .about-me-skills {
     display: grid;
@@ -113,5 +117,31 @@ section.skills {
 
   .about-me-skills ul {
     align-items: center;
+  }
+
+  .about-me-img-mobile {
+    display: none;
+  }
+
+  .about-me-info {
+    flex-direction: row;
+  }
+
+  .about-me-text {
+    margin-left: 142px;
+  }
+
+  .about-me-title {
+    margin-left: 25px;
+  }
+
+  .resume-btn {
+    align-self: flex-end;
+  }
+
+  .about-me-img {
+    display: block;
+    width: 50%;
+    align-self: flex-end;
   }
 }

@@ -1,4 +1,4 @@
-footer {
+section.form-contact {
   display: flex;
 }
 
@@ -38,4 +38,42 @@ footer {
   border-style: none;
   width: 30vh;
   align-self: center;
+}
+
+.social-media-footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 27px 0;
+}
+
+.social-media-footer ul li a {
+  text-decoration: none;
+  color: #505f79;
+}
+
+@media (min-width: 1000px) {
+  section.form-contact {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .contact {
+    color: #262626;
+    margin: 130px 130px 135px;
+    text-align: start;
+    font-size: 40px;
+  }
+
+  .form {
+    margin: 130px 130px 135px;
+  }
+
+  .ct-submit {
+    align-self: flex-start;
+    top: calc(50% - 48px / 2 + 141px);
+    width: 122px;
+    height: 48px;
+    left: 0;
+  }
 }

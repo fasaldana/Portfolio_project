@@ -29,16 +29,15 @@ nav {
   color: #fff;
 }
 
-h2 {
+.logo {
   font-size: 1.5rem;
-  margin: 0.5rem;
+  margin: 5rem;
   text-decoration: none;
   color: #fff;
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
+  padding-right: 150px;
   display: flex;
 }
 
@@ -150,7 +149,32 @@ section.presentation {
 
 /* presentation */
 
-@media (max-width: 950px) {
+@media (min-width: 1000px) {
+  .personal-info {
+    flex-direction: row;
+  }
+
+  .about-me {
+    order: 1;
+  }
+
+  .social-media {
+    order: 0;
+  }
+
+  .nav {
+    height: 72px;
+  }
+
+  .social-media ul {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
   nav {
     flex-direction: column;
     align-items: flex-start;
@@ -162,6 +186,7 @@ section.presentation {
   }
 
   nav ul {
+    padding: 0;
     position: absolute;
     width: 100%;
     height: 100%;

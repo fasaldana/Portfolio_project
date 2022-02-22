@@ -33,9 +33,10 @@ section.works {
   margin-right: 2rem;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   align-self: center;
+  margin-top: 5px;
 }
 
 .worksimg {
@@ -124,7 +125,7 @@ section.works {
   top: 101px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   color: #fff;
 }
@@ -166,6 +167,10 @@ section.works {
   .box-btn {
     display: none;
     align-self: flex-end;
+  }
+
+  .work-desc {
+    font-size: 20px;
   }
 
   .box:hover {

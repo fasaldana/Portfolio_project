@@ -12,6 +12,7 @@
 
         gtag('config', 'G-JH16ST03L3');
     </script>
+    <script src="script.js" defer></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -27,17 +28,19 @@
     <main class="container">
         <header>
             <nav>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fas fa-bars"></i>
-                </label>
                 <h2 class="logo">John Doe</h2>
-                <ul>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#"><img src="media/Icon-Mail.png" alt=""></a></li>
-                </ul>
+                <a href="#" class="checkbtn">
+                    <i class="fas fa-bars" onclick="myFunction(this)"></i>
+                </a>
+
+                <div class="nav-li">
+                    <ul>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#"><img class="mailicon" src="media/Icon-Mail.png" alt=""></a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
         <section class="presentation">

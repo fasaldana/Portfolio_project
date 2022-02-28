@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
 }
 
 .conteiner {
@@ -30,8 +31,8 @@ nav {
 }
 
 .logo {
+  display: block;
   font-size: 1.5rem;
-  margin: 5rem;
   text-decoration: none;
   color: #fff;
 }
@@ -39,6 +40,10 @@ nav {
 nav ul {
   padding-right: 150px;
   display: flex;
+}
+
+.logo.disabled {
+  display: none;
 }
 
 nav li a {
@@ -63,10 +68,7 @@ nav li:hover {
   width: 30px;
   height: 25px;
   cursor: pointer;
-}
-
-#check {
-  display: none;
+  color: #fff;
 }
 
 /* header */
@@ -135,6 +137,10 @@ section.presentation {
   margin-right: 30px;
 }
 
+#icon-close {
+  display: none;
+}
+
 .home {
   display: flex;
 }
@@ -185,17 +191,28 @@ section.presentation {
     margin-left: 30px;
   }
 
-  nav ul {
+  .nav-li {
+    display: none;
+  }
+
+  .nav-li ul {
     padding: 0;
     position: absolute;
     width: 100%;
     height: 100%;
     flex-direction: column;
     top: 50px;
-    right: -100%;
     transition: all 0.5s;
     background: #3c3a39;
     overflow-y: auto;
+  }
+
+  .nav-li.active {
+    display: flex;
+  }
+
+  .mailicon {
+    display: none;
   }
 
   nav ul li {
@@ -209,10 +226,6 @@ section.presentation {
 
   .checkbtn {
     display: flex;
-  }
-
-  #check:checked ~ ul {
-    right: 0;
   }
 
   .about-me {

@@ -172,6 +172,10 @@ section.presentation {
     height: 72px;
   }
 
+  .menu-li {
+    display: none;
+  }
+
   .social-media ul {
     flex-direction: column;
     justify-content: center;
@@ -211,12 +215,18 @@ section.presentation {
     display: flex;
   }
 
+  .menu-li {
+    display: block;
+  }
+
   .mailicon {
     display: none;
   }
 
   nav ul li {
     text-align: center;
+    text-align: left;
+    padding-left: 40px;
   }
 
   nav li a {

@@ -217,6 +217,10 @@ section.presentation {
 
   .menu-li {
     display: block;
+    width: 90%;
+    margin: 0;
+    background: #6f6c6b;
+    margin-top: 10px;
   }
 
   .mailicon {
@@ -231,7 +235,8 @@ section.presentation {
 
   nav li a {
     padding: 0.5rem 1rem;
-    font-size: 32px;
+    font-size: 40px;
+    line-height: 44px;
   }
 
   .checkbtn {

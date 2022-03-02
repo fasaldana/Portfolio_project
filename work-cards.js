@@ -99,8 +99,8 @@ function popupWindow() {
                         <div class="modal-about">
                             <p>${data[0].description}</p>
                             <div class="modal-btn">
-                                <button>See Live<img class="live-icon" src="media/Icon.png" alt="live icon"></button>
-                                <button>See Source <img src="media/Vector.png" alt="GitHub"></button>
+                                <button onclick="javascript:window.open('${data[0].liveVer}', '_blank');">See Live<img class="live-icon" src="media/Icon.png" alt="live icon"></button>
+                                <button onclick="javascript:window.open('${data[0].source}', '_blank');">See Source <img src="media/Vector.png" alt="GitHub"></button>
                             </div>
                         </div>
                     </div>

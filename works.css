@@ -154,6 +154,109 @@ section.works {
   background: #ff6b00;
 }
 
+.modalContainer {
+  transform: scale(0);
+  position: fixed;
+  top: 3%;
+  left: 0;
+  height: 78%;
+  width: 60%;
+  margin-left: 20%;
+  padding-left: 16px;
+  background-color: #fff;
+}
+
+.modalContainer.opened {
+  transform: scale(1);
+}
+
+.tools {
+  display: flex;
+}
+
+.tools ul {
+  padding: 5px 0;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.modalHeader h3 {
+  width: 259px;
+  height: 82px;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: bold;
+  color: #172b4d;
+}
+
+.modalHeader img {
+  height: 2rem;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modal-about {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-about p {
+  color: #1c1a19;
+  font-family: "Inter", serif;
+  font-weight: 40px;
+  padding-right: 16px;
+  width: 80%;
+}
+
+.modal-img {
+  width: 80%;
+}
+
+.modal-btn {
+  display: flex;
+  gap: 20px;
+}
+
+.modal-about button {
+  width: 125px;
+  height: 48px;
+  background: #ff6b00;
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.modal-about button img {
+  margin-left: 5px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.opened {
+  opacity: 1;
+  pointer-events: all;
+}
 /* work cards */
 
 @media (min-width: 1000px) {

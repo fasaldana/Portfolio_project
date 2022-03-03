@@ -219,7 +219,6 @@ section.works {
 
 .modal-about p {
   color: #1c1a19;
-  font-family: "Inter", serif;
   font-weight: 40px;
   padding-right: 16px;
   width: 80%;
@@ -263,6 +262,7 @@ section.works {
   opacity: 1;
   pointer-events: all;
 }
+
 /* work cards */
 
 @media (min-width: 1000px) {
@@ -349,6 +349,7 @@ section.works {
     font-size: 17px;
     line-height: 24px;
   }
+
   .modal-img {
     max-width: 80%;
     min-width: 120px;

@@ -4,10 +4,11 @@ const data = [
       name: 'Professional Art Printing Data', 
       description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       featuredImage: 'media/work_example.png',
-      tecnologies: ['Html', 'Bootstrap', 'Ruby on rails',],
+      tecnologies: ['Html', 'Bootstrap', 'Ruby on rails'],
       liveVer: 'https://fasaldana.github.io/Portfolio_project/',
       source: 'https://github.com/fasaldana/Portfolio_project',
-    }
+    },
+
   ];
   
 
@@ -83,28 +84,28 @@ function popupWindow() {
   modalContainer = document.createElement('section');
   modalContainer.innerHTML = `
   <div class="modalContainer">
-                    <div class="modalHeader">
-                        <h3>${data[0].name}</h3>
-                        <img class="close-modal" src="media/close.png" alt="close">
-                    </div>
-                    <div class="tools">
-                        <ul>
-                            <li>${data[0].tecnologies[0]}</li>
-                            <li>${data[0].tecnologies[1]}</li>
-                            <li>${data[0].tecnologies[2]}</li>
-                        </ul>
-                    </div>
-                    <div class="modal-content">
-                        <img class="modal-img" src="${data[0].featuredImage}" alt="work image">
-                        <div class="modal-about">
-                            <p>${data[0].description}</p>
-                            <div class="modal-btn">
-                                <button>See Live<img class="live-icon" src="media/Icon.png" alt="live icon"></button>
-                                <button>See Source <img src="media/Vector.png" alt="GitHub"></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>`
+        <div class="modalHeader">
+            <h3>${data[0].name}</h3>
+            <img class="close-modal" src="media/close.png" alt="close">
+        </div>
+        <div class="tools">
+            <ul>
+                <li>${data[0].tecnologies[0]}</li>
+                <li>${data[0].tecnologies[1]}</li>
+                <li>${data[0].tecnologies[2]}</li>
+            </ul>
+        </div>
+        <div class="modal-content">
+            <img class="modal-img" src="${data[0].featuredImage}" alt="work image">
+            <div class="modal-about">
+                <p>${data[0].description}</p>
+                <div class="modal-btn">
+                    <button>See Live<img class="live-icon" src="media/Icon.png" alt="live icon"></button>
+                    <button>See Source <img src="media/Vector.png" alt="GitHub"></button>
+                </div>
+            </div>
+        </div>
+</div>`
 ;
 midpart.appendChild(modalContainer);
 }

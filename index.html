@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="buttons.css">
+    <script src="work-cards.js" defer></script>
     <title>Self Portfolio</title>
 </head>
 
@@ -104,7 +105,6 @@
             <div class="work-cards">
             </div>
             <div id="overlay"></div>
-            <script src="work-cards.js"></script>
         </section>
         <div class="about-me-container">
             <section id="aboutme-sec" class="about-me-sec">
@@ -161,11 +161,13 @@
             </h2>
             <form action="https://formspree.io/f/mrgjqqjd" method="post" class="form">
                 <input required class="input-1" maxlength="30" type="text" placeholder="Full name">
-                <input required class="input-1" type="email" placeholder="Email address">
+                <input required class="input-1" type="email" placeholder="Email address" id="email">
                 <textarea class="input-2" maxlength="500" name="message" id="text-area" cols="30" rows="10"
                     placeholder="Enter Text here"></textarea>
                 <button class="ct-submit btn-style">Get in touch</button>
+                <span class="error"></span>
             </form>
+
 
         </section>
         <hr>

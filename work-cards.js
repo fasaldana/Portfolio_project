@@ -11,7 +11,7 @@ const data = [
 ];
 
 const container = document.querySelector('.work-cards');
-for (let i = 0; i < data.length; i+=1) {
+for (let i = 0; i < data.length; i += 1) {
   container.innerHTML = `
     <div class="box">
         <h2 class="box-title">${data[i].name}</h2>

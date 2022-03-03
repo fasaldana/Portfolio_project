@@ -133,3 +133,7 @@ for (let i = 0; i < 6; i += 1) {
     popupwind.classList.remove('opened');
   });
 }
+
+const form = document.querySelector('.form');
+const email = document.querySelector('#email');
+const error = document.querySelector('.error');

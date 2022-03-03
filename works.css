@@ -160,11 +160,12 @@ section.works {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  justify-content: space-between;
   align-items: center;
   transform: scale(0);
   position: fixed;
   top: 3%;
-  height: 78%;
+  height: 600px;
   width: 60%;
   margin-left: 20%;
   padding-left: 16px;
@@ -319,6 +320,7 @@ section.works {
 
   .modalContainer {
     width: 80%;
+    height: 700px;
     align-items: flex-start;
     margin-left: 140px;
   }

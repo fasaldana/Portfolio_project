@@ -81,7 +81,9 @@ let modalContainer;
 function popupWindow() {
   modalContainer = document.createElement('section');
   modalContainer.innerHTML = `
+
   <div class="modalContainer">
+  <div class="modal">
         <div class="modalHeader">
             <h3>${data[0].name}</h3>
             <img class="close-modal" src="media/close.png" alt="close">
@@ -103,6 +105,7 @@ function popupWindow() {
                 </div>
             </div>
         </div>
+</div>
 </div>`;
   midpart.appendChild(modalContainer);
 }

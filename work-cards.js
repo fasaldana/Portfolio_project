@@ -137,3 +137,15 @@ for (let i = 0; i < 6; i += 1) {
 const form = document.querySelector('.form');
 const email = document.querySelector('#email');
 const error = document.querySelector('.error');
+
+form.addEventListener('submit', (e) => {
+  const Emailtext = email.value;
+  if (Emailtext !== Emailtext.toLowerCase()) {
+    e.preventDefault();
+    error.style.color = 'red';
+    error.style.gridColumn = '2/3';
+    error.textContent = 'Please Enter your Email in Lowercase';
+  } else {
+    error.textContent = '';
+  }
+});

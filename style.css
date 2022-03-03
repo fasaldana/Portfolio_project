@@ -12,6 +12,10 @@
   width: 960px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 hr {
   width: 80%;
   text-align: center;

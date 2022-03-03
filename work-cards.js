@@ -10,10 +10,9 @@ const data = [
   },
 ];
 
-
 const container = document.querySelector('.work-cards');
-for (let i = 0; i < data.length; i++) {
-    container.innerHTML = `
+for (let i = 0; i < data.length; i+=1) {
+  container.innerHTML = `
     <div class="box">
         <h2 class="box-title">${data[i].name}</h2>
         <p class="box-desc">${data[i].description}</p>
@@ -74,14 +73,14 @@ for (let i = 0; i < data.length; i++) {
         </div>
         <button class="box-btn  btn-style">See Project</button>
     </div>
-  `
+  `;
 }
 
-//popupWindow
+//  popupWindow
 let modalContainer;
 function popupWindow() {
-    modalContainer = document.createElement('section');
-    modalContainer.innerHTML = `
+  modalContainer = document.createElement('section');
+  modalContainer.innerHTML = `
   <div class="modalContainer">
         <div class="modalHeader">
             <h3>${data[0].name}</h3>
@@ -104,9 +103,8 @@ function popupWindow() {
                 </div>
             </div>
         </div>
-</div>`
-        ;
-    midpart.appendChild(modalContainer);
+</div>`;
+  midpart.appendChild(modalContainer);
 }
 popupWindow();
 
@@ -114,21 +112,21 @@ const overlay = document.getElementById('overlay');
 const popupwind = document.getElementsByClassName('modalContainer')[0];
 
 for (let i = 0; i < 6; i += 1) {
-    const openModalButtons2 = document.getElementsByClassName('box-btn')[i];
-    const closeModalButtons2 = document.getElementsByClassName('close-modal')[0];
+  const openModalButtons2 = document.getElementsByClassName('box-btn')[i];
+  const closeModalButtons2 = document.getElementsByClassName('close-modal')[0];
 
-    openModalButtons2.addEventListener('click', () => {
-        overlay.classList.add('opened');
-        popupwind.classList.add('opened');
-    });
+  openModalButtons2.addEventListener('click', () => {
+    overlay.classList.add('opened');
+    popupwind.classList.add('opened');
+  });
 
-    overlay.addEventListener('click', () => {
-        overlay.classList.remove('opened');
-        popupwind.classList.remove('opened');
-    });
+  overlay.addEventListener('click', () => {
+    overlay.classList.remove('opened');
+    popupwind.classList.remove('opened');
+  });
 
-    closeModalButtons2.addEventListener('click', () => {
-        overlay.classList.remove('opened');
-        popupwind.classList.remove('opened');
-    });
+  closeModalButtons2.addEventListener('click', () => {
+    overlay.classList.remove('opened');
+    popupwind.classList.remove('opened');
+  });
 }

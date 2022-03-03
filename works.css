@@ -219,7 +219,7 @@ section.works {
 
 .modal-about p {
   color: #1c1a19;
-  font-weight: 40px;
+  font-size: 16px;
   padding-right: 16px;
   width: 80%;
 }
@@ -340,7 +340,7 @@ section.works {
   }
 
   .modal-about p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
   }
 

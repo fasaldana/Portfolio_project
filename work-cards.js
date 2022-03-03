@@ -149,3 +149,34 @@ form.addEventListener('submit', (e) => {
     error.textContent = '';
   }
 });
+
+const storeForm = {};
+
+function saveData(data) {
+  const stringyData = JSON.stringify(data);
+  window.localStorage.setItem('customFormData', stringyData);
+}
+
+document.querySelector('.form').addEventListener('change', () => {
+  const inputs = document.querySelectorAll('input');
+  const textArea = document.querySelector('textarea');
+  inputs.forEach((input) => {
+    storeForm[input.id] = input.value;
+  });
+  storeForm[textArea.id] = textArea.value;
+  saveData(storeForm);
+});
+
+function reinsertValues(storeForm) {
+  Object.entries(storeForm).forEach((ele) => {
+    const [key, value] = ele;
+    document.getElementById(key).value = value;
+  });
+}
+
+window.addEventListener('load', () => {
+  const formDataObj = JSON.parse(window.localStorage.getItem('customFormData'));
+  if (formDataObj) {
+    reinsertValues(formDataObj);
+  }
+});

@@ -111,7 +111,7 @@ function popupWindow() {
 }
 popupWindow();
 
-const overlay = document.getElementById('overlay');
+const overlay = document.getElementById(overlay);
 const popupwind = document.getElementsByClassName('modalContainer')[0];
 
 for (let i = 0; i < 6; i += 1) {
@@ -175,7 +175,7 @@ function reinsertValues(storeForm) {
 }
 
 window.addEventListener('load', () => {
-  const formDataObj = JSON.parse(window.localStorage.getItem('customFormData'));
+  const formDataObj = JSON.parse(window.localStorage.getItem(customFormData));
   if (formDataObj) {
     reinsertValues(formDataObj);
   }

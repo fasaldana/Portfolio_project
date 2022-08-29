@@ -115,6 +115,7 @@ function popupWindow(index) {
   modalDesc.innerHTML = data[index].description;
   const modalBtn = document.createElement('div');
   modalBtn.classList.add('modal-btn');
+
   const liveBtn = document.createElement('button');
   liveBtn.innerHTML = 'See Live';
   const liveIcon = document.createElement('img');

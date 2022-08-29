@@ -13,7 +13,7 @@ const data = [
     name: 'YGO - Build your deck',
     description:
       'a SPA (single page application) that allows the user to connect to the YuGiOh official API to get information about cards from selected archetypes so that you can build your deck following your favorite card',
-    featuredImage: 'media/ygo-project.png',
+    featuredImage: 'media/YGO_project.png',
     tecnologies: ['React', 'Redux', 'JavaScript'],
     liveVer: 'https://ygo-pro.herokuapp.com',
     source: 'https://github.com/fasaldana/capstone_YGO',
@@ -22,7 +22,7 @@ const data = [
     name: 'Budget App',
     description:
       'A Mobile Web App made with Rails that takes care of your expenses. You can have a record of your expenses by date, category, amount, and others. Has feature and system tests with RSpec and Capybara. Implements authentication with Devise. Deployed to Heroku. Uses PostgreSQL and ActiveRecord.',
-    featuredImage: 'media/budget-app.png',
+    featuredImage: 'media/budget_app.png',
     tecnologies: ['Ruby', 'Ruby on Rails', 'PostgreSQL'],
     liveVer: 'https://obscure-brushlands-44462.herokuapp.com',
     source: 'https://github.com/fasaldana/budgetApp',
@@ -31,7 +31,7 @@ const data = [
     name: 'Math Magicians',
     description:
       'Math magicians is a website for all fans of mathematics. It allows users to: Make simple calculations. Read a random math-related quote.',
-    featuredImage: 'media/math-magicians.png',
+    featuredImage: 'media/math_magicians.png',
     tecnologies: ['ReactJS', 'CSS'],
     liveVer: 'https://math-magicians-hero.herokuapp.com',
     source: 'https://github.com/fasaldana/math-magicians',
@@ -40,7 +40,7 @@ const data = [
     name: 'Space Travelers',
     description:
       'a SPA (single page application) that allows the user to connect to the Space X API to view rocket and mission data! A User can reserve a rocket for space travel and embark on space missions.',
-    featuredImage: 'media/space-travelers.png',
+    featuredImage: 'media/space_travelers.png',
     tecnologies: ['ReactJS', 'CSS', 'Redux', 'Redux-toolkit'],
     liveVer: 'https://space-travelers-ak-fs.herokuapp.com',
     source: 'https://github.com/AKeeganDev/space_travelers',

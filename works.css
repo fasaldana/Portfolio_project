@@ -97,8 +97,8 @@ section.works {
 }
 
 .box {
-  background-image: url("media/ImgPlaceholder(1).png");
   background-repeat: repeat-y;
+  background-size: cover;
   margin-left: 30px;
   margin-bottom: 30px;
   height: 327px;
@@ -165,11 +165,11 @@ section.works {
   transform: scale(0);
   position: fixed;
   top: 3%;
-  height: 600px;
   width: 60%;
   margin-left: 20%;
   padding-left: 16px;
   background-color: #fff;
+  height: 90vh;
 }
 
 .modalContainer.opened {
@@ -202,14 +202,19 @@ section.works {
 .modalHeader img {
   cursor: pointer;
   height: 1rem;
-  margin-top: 20px;
+  margin: 0 1rem;
 }
 
 .modal-content {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+  margin-top: 3vh;
   gap: 30px;
+}
+
+.modal-image {
+  max-width: 50%;
 }
 
 .modal-about {
@@ -278,16 +283,6 @@ section.works {
     align-self: flex-end;
   }
 
-  .box:hover {
-    background: url("media/ImgPlaceholderhover.png");
-  }
-
-  .box:hover .box-title,
-  .box:hover .box-desc,
-  .box:hover .box-btn-tools {
-    display: none;
-  }
-
   .box:hover .box-btn {
     display: block;
     font-size: 17px;
@@ -320,8 +315,8 @@ section.works {
 
   .modalContainer {
     width: 80%;
-    height: 700px;
-    align-items: flex-start;
+    height: 90vh;
+    align-items: center;
     margin-left: 140px;
   }
 
@@ -337,10 +332,6 @@ section.works {
     gap: 10px;
   }
 
-  .modal-about {
-    justify-content: space-between;
-  }
-
   .modal-about p {
     font-size: 20px;
     line-height: 30px;
@@ -352,9 +343,8 @@ section.works {
     line-height: 24px;
   }
 
-  .modal-img {
+  .modal-image {
     max-width: 80%;
-    min-width: 120px;
   }
 
   /* modal */

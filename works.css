@@ -11,7 +11,7 @@ section.works {
 .works-title {
   padding-top: 33px;
   height: 81px;
-  margin-left: 100px;
+  margin-left: 5vh;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -40,7 +40,7 @@ section.works {
 
 .worksimg {
   margin-top: 80px;
-  width: 28rem;
+  max-width: 80%;
   align-self: center;
   padding-left: 30px;
   margin-left: 20px;
@@ -93,13 +93,12 @@ section.works {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  margin-top: 2vh;
 }
 
 .box {
   background-repeat: repeat-y;
   background-size: cover;
-  margin-left: 30px;
   margin-bottom: 30px;
   height: 327px;
   width: 327px;

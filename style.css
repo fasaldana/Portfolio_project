@@ -153,10 +153,6 @@ section.presentation {
   display: flex;
 }
 
-#img2 {
-  display: none;
-}
-
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -175,6 +171,18 @@ section.presentation {
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 /* presentation */
@@ -303,9 +311,5 @@ section.presentation {
 
   #img1 {
     display: none;
-  }
-
-  #img2 {
-    display: flex;
   }
 }

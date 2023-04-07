@@ -1,10 +1,9 @@
 const toggle = document.getElementsByClassName('checkbtn')[0];
 const navLi = document.getElementsByClassName('nav-li')[0];
-const text = document.getElementsByClassName('logo')[0];
 
 toggle.addEventListener('click', () => {
   navLi.classList.toggle('active');
-  text.classList.toggle('disabled');
+  document.body.classList.toggle('stop-scrolling');
 });
 
 function myFunction(x) {
@@ -23,8 +22,13 @@ window.onscroll = function () {
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = 'block';
+    // the button needs to appear with an animation so it doesn't just pop up
+    mybutton.classList.add('animate__animated', 'animate__fadeIn');
+    document.getElementById('nav').style.top = '-50px';
   } else {
     mybutton.style.display = 'none';
+    mybutton.classList.remove('animate__animated', 'animate__fadeIn');
+    document.getElementById('nav').style.top = '0';
   }
 }
 

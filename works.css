@@ -104,7 +104,7 @@ section.works {
   width: 327px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .box-title {
@@ -164,9 +164,9 @@ section.works {
   transform: scale(0);
   position: fixed;
   top: 3%;
-  width: 60%;
-  margin-left: 20%;
+  margin: 5%;
   padding-left: 16px;
+  padding-top: 16px;
   background-color: #fff;
   height: 90vh;
 }

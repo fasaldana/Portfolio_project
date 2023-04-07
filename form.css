@@ -5,7 +5,7 @@ section.form-contact {
 
 .contact {
   text-align: center;
-  padding: 120px 0 73px;
+  padding: 6vh 0 6vh;
   color: #172b4d;
   font-size: 32px;
   margin-left: 24px;
@@ -13,7 +13,7 @@ section.form-contact {
 }
 
 .form {
-  padding-bottom: 124px;
+  padding-bottom: 1vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,7 +61,7 @@ section.form-contact {
 
   .contact {
     color: #262626;
-    margin: 130px 130px 135px;
+    margin: 7vh 2vw 2vw;
     text-align: start;
     font-size: 40px;
   }

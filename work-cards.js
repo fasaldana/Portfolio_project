@@ -15,7 +15,7 @@ const data = [
       'a SPA (single page application) that allows the user to connect to the YuGiOh official API to get information about cards from selected archetypes so that you can build your deck following your favorite card',
     featuredImage: 'media/YGO_project.png',
     tecnologies: ['React', 'Redux', 'JavaScript'],
-    liveVer: 'https://ygo-pro.herokuapp.com',
+    liveVer: 'https://splendorous-cactus-28ba03.netlify.app',
     source: 'https://github.com/fasaldana/capstone_YGO',
   },
   {
@@ -28,13 +28,12 @@ const data = [
     source: 'https://github.com/fasaldana/budgetApp',
   },
   {
-    name: 'Math Magicians',
-    description:
-      'Math magicians is a website for all fans of mathematics. It allows users to: Make simple calculations. Read a random math-related quote.',
-    featuredImage: 'media/math_magicians.png',
-    tecnologies: ['ReactJS', 'CSS'],
-    liveVer: 'https://math-magicians-hero.herokuapp.com',
-    source: 'https://github.com/fasaldana/math-magicians',
+    name: 'Bookstore',
+    description: 'A bookstore app that allows users to add and remove books from the store. Also, users can see the progress of their reading.',
+    featuredImage: 'media/bookstore.png',
+    tecnologies: ['ReactJS', 'CSS', 'Redux', 'Redux-toolkit'],
+    liveVer: 'https://6433a2b6a9fb4e51e99a3891--extraordinary-duckanoo-3cbf0b.netlify.app',
+    source: 'https://github.com/fasaldana/bookstore',
   },
   {
     name: 'Space Travelers',
@@ -42,17 +41,17 @@ const data = [
       'a SPA (single page application) that allows the user to connect to the Space X API to view rocket and mission data! A User can reserve a rocket for space travel and embark on space missions.',
     featuredImage: 'media/space_travelers.png',
     tecnologies: ['ReactJS', 'CSS', 'Redux', 'Redux-toolkit'],
-    liveVer: 'https://space-travelers-ak-fs.herokuapp.com',
+    liveVer: 'https://6430d4017e2e5238c70bbe3f--delightful-piroshki-d2715d.netlify.app',
     source: 'https://github.com/AKeeganDev/space_travelers',
   },
   {
-    name: 'Professional Art Printing Data',
+    name: 'Math Magicians',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featuredImage: 'media/work_example.png',
-    tecnologies: ['Html', 'Bootstrap', 'Ruby on rails'],
-    liveVer: 'https://fasaldana.github.io/Portfolio_project/',
-    source: 'https://github.com/fasaldana/Portfolio_project',
+      'Math magicians is a website for all fans of mathematics. It allows users to: Make simple calculations. Read a random math-related quote.',
+    featuredImage: 'media/math_magicians.png',
+    tecnologies: ['ReactJS', 'CSS'],
+    liveVer: 'https://eloquent-kulfi-794360.netlify.app',
+    source: 'https://github.com/fasaldana/math-magicians',
   },
 ];
 

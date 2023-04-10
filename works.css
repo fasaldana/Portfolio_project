@@ -39,7 +39,7 @@ section.works {
 }
 
 .worksimg {
-  margin-top: 80px;
+  margin-top: 2em;
   max-width: 80%;
   align-self: center;
   padding-left: 30px;
@@ -93,7 +93,7 @@ section.works {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2vh;
+  margin-top: 3vh;
 }
 
 .box {
@@ -274,7 +274,7 @@ section.works {
   .work-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 24px 12%;
+    margin: 3vh 1vw 0 8vw;
   }
 
   .box-btn {
@@ -314,7 +314,7 @@ section.works {
 
   .modalContainer {
     width: 80%;
-    height: 90vh;
+    height: 70vh;
     align-items: center;
     margin-left: 140px;
   }
@@ -343,7 +343,8 @@ section.works {
   }
 
   .modal-image {
-    max-width: 80%;
+    max-width: 60%;
+    margin-left: 20px;
   }
 
   /* modal */

@@ -52,6 +52,7 @@ nav {
 nav ul {
   padding-right: 150px;
   display: flex;
+  justify-content: center;
 }
 
 .logo.disabled {
@@ -98,7 +99,7 @@ section.presentation {
 }
 
 .social-media {
-  margin-top: 30px;
+  margin-top: 8em;
   display: flex;
 }
 
@@ -114,6 +115,7 @@ section.presentation {
 .about-me {
   display: flex;
   flex-direction: column;
+  margin-top: 2em;
 }
 
 .title {
@@ -257,10 +259,9 @@ section.presentation {
     width: 100%;
     height: 100%;
     flex-direction: column;
-    top: 50px;
-    transition: all 0.5s;
     background: #3c3a39;
     overflow-y: auto;
+    gap: 8vh;
   }
 
   .nav-li.active {
@@ -269,8 +270,6 @@ section.presentation {
 
   .menu-li {
     display: block;
-    width: 90%;
-    margin: 0;
     background: #6f6c6b;
     margin-top: 10px;
   }
@@ -281,8 +280,6 @@ section.presentation {
 
   nav ul li {
     text-align: center;
-    text-align: left;
-    padding-left: 40px;
   }
 
   nav li a {

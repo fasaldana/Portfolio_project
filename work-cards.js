@@ -21,7 +21,7 @@ const data = [
   {
     name: 'Bookstore',
     description: 'A bookstore app that allows users to add and remove books from the store. Also, users can see the progress of their reading.',
-    featuredImage: 'media/bookstore.png',
+    featuredImage: 'media/bookstore.PNG',
     tecnologies: ['ReactJS', 'CSS', 'Redux', 'Redux-toolkit'],
     liveVer: 'https://6433a2b6a9fb4e51e99a3891--extraordinary-duckanoo-3cbf0b.netlify.app',
     source: 'https://github.com/fasaldana/bookstore',

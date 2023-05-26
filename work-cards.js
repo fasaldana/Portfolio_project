@@ -15,7 +15,7 @@ const data = [
       'a SPA (single page application) that allows the user to connect to the YuGiOh official API to get information about cards from selected archetypes so that you can build your deck following your favorite card',
     featuredImage: 'media/YGO_project.png',
     tecnologies: ['React', 'Redux', 'JavaScript'],
-    liveVer: 'https://splendorous-cactus-28ba03.netlify.app',
+    liveVer: 'https://fantastic-pixie-0b1faf.netlify.app',
     source: 'https://github.com/fasaldana/capstone_YGO',
   },
   {

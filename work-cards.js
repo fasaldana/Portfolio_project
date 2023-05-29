@@ -1,4 +1,4 @@
-const midpart = document.getElementById('overlay');
+const midpart = document.querySelector('.works');
 const data = [
   {
     name: 'Save Animals',

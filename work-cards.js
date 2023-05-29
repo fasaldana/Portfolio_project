@@ -1,4 +1,4 @@
-const midpart = document.querySelector('.works');
+const midpart = document.getElementById('overlay');
 const data = [
   {
     name: 'Save Animals',
@@ -15,7 +15,7 @@ const data = [
       'a SPA (single page application) that allows the user to connect to the YuGiOh official API to get information about cards from selected archetypes so that you can build your deck following your favorite card',
     featuredImage: 'media/YGO_project.png',
     tecnologies: ['React', 'Redux', 'JavaScript'],
-    liveVer: 'https://fantastic-pixie-0b1faf.netlify.app',
+    liveVer: 'https://647261a75889953215239cc3--soft-entremet-9ffabe.netlify.app',
     source: 'https://github.com/fasaldana/capstone_YGO',
   },
   {

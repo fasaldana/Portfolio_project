@@ -8,7 +8,7 @@
 - CSS
 
 ## Getting Started
-##Live page:
+### Live page:
 https://fasaldana.github.io/Portfolio_project/
 
 This project is still on develop

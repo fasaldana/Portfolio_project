@@ -38,15 +38,10 @@ nav {
   transition: top 0.3s;
 }
 
-.stop-scrolling {
-  height: 100%;
-  overflow: hidden;
-}
-
 .resize {
   width: 100px;
   height: auto;
-  margin-left: 2vw;
+  margin-left: 6vw;
 }
 
 nav ul {
@@ -324,6 +319,11 @@ section.presentation {
   .social-media ul li {
     padding-left: 50px;
     padding-top: 50px;
+  }
+
+  .stop-scrolling {
+    height: 100%;
+    overflow: hidden;
   }
 
   #img1 {

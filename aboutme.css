@@ -61,7 +61,7 @@ section.skills {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .lenguage {
@@ -75,7 +75,6 @@ section.skills {
 }
 
 .skills {
-  padding-top: 60px;
   min-height: 320px;
   display: flex;
   flex-direction: column;

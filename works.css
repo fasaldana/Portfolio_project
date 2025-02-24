@@ -163,12 +163,10 @@ section.works {
   align-items: center;
   transform: scale(0);
   position: fixed;
-  top: 3%;
+  top: 20%;
   margin: 5%;
-  padding-left: 16px;
-  padding-top: 16px;
+  padding: 20px;
   background-color: #fff;
-  height: 90vh;
 }
 
 .modalContainer.opened {
@@ -187,11 +185,11 @@ section.works {
   display: flex;
   justify-content: space-between;
   margin-right: 20px;
+  align-items: center;
 }
 
 .modalHeader h3 {
-  width: 259px;
-  height: 82px;
+  margin-top: 20px;
   font-size: 32px;
   line-height: 44px;
   font-weight: bold;
@@ -297,7 +295,6 @@ section.works {
   }
 
   .first-card-text {
-    margin-top: 140px;
     padding-right: 151px;
   }
 
@@ -313,22 +310,22 @@ section.works {
   /* modal */
 
   .modalContainer {
-    width: 80%;
-    height: 70vh;
     align-items: center;
     margin-left: 140px;
+    top: 5%;
   }
 
   .modalHeader {
     align-items: center;
-    width: 95%;
     margin: 0 10px;
   }
 
   .modal-content {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 10px;
+    flex-direction: row;
+  }
+
+  .modal-about {
+    width: 50%;
   }
 
   .modal-about p {
@@ -343,7 +340,7 @@ section.works {
   }
 
   .modal-image {
-    max-width: 60%;
+    max-width: 40%;
     margin-left: 20px;
   }
 

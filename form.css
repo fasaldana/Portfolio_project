@@ -5,11 +5,9 @@ section.form-contact {
 
 .contact {
   text-align: center;
-  padding: 6vh 0 6vh;
+  padding: 20px;
   color: #172b4d;
   font-size: 32px;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .form {
@@ -56,18 +54,17 @@ section.form-contact {
 @media (min-width: 1000px) {
   section.form-contact {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
   }
 
   .contact {
     color: #262626;
-    margin: 7vh 2vw 2vw;
-    text-align: start;
-    font-size: 40px;
   }
 
   .form {
-    margin: 130px 130px 135px;
+    margin-top: 20px;
+    padding: 20px;
   }
 
   .ct-submit {

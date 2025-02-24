@@ -1,206 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JH16ST03L3"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JH16ST03L3"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-JH16ST03L3');
+      gtag("config", "G-JH16ST03L3");
     </script>
     <script src="script.js" defer></script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="works.css">
-    <link rel="stylesheet" href="aboutme.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="form.css">
-    <link rel="stylesheet" href="buttons.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="works.css" />
+    <link rel="stylesheet" href="aboutme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="buttons.css" />
     <script src="work-cards.js" defer></script>
     <title>Welcome to my Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main class="container">
-        <header>
-            <nav id="nav">
-                <img src="media/saldana-degisn.png" alt="logo" class="resize">
-                <a href="#" class="checkbtn">
-                    <i class="fas fa-bars" onclick="myFunction(this)"></i>
-                </a>
-                <div class="nav-li">
-                    <ul>
-                        <li><a class="menu-btn" href="#works-sec">Portfolio</a>
-                            <hr class="menu-li">
-                        </li>
-                        <li><a class="menu-btn" href="#aboutme-sec">About</a>
-                            <hr class="menu-li">
-                        </li>
-                        <li><a class="menu-btn" href="#contact-sec">Contact</a>
-                            <hr class="menu-li">
-                        </li>
-                        <li><a href="#"><img class="mailicon" src="media/Icon-Mail.png" alt=""></a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <section class="presentation">
-            <div class="home">
-                <div class="personal-info">
-                    <div class="about-me">
-                        <h1 class="title">Hi there. <br> I'm Fernando</h1>
-                        <h3 class="subtitle">I'm a Software Developer</h3>
-                        <p class="description">I can help you build a product , feature or website Look through some of
-                            my work and
-                            experience!
-                            If
-                            you like what you see and have a project you need coded,
-                            don’t hesitate to contact me.</p>
-                    </div>
-                    <div class="social-media">
-                        <ul>
-                            <li class="grow"><a href="https://github.com/fasaldana" target="_blank"><i
-                                        class="fa-brands fa-github fa-xl"></i></a></li>
-                            <li class="grow"><a href="https://www.linkedin.com/in/fernando-saldana/" target="_blank"><i
-                                        class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
-                            <li class="grow"><a href="https://angel.co/u/fernando-saldana-4" target="_blank"><i
-                                        class="fa-brands fa-angellist fa-xl"></i></a></li>
-                            <li class="grow"><a href="https://twitter.com/Fernand57925964" target="_blank"><i
-                                        class="fa-brands fa-twitter fa-xl"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="homeimg">
-                    <img id="img1" src="./media/Illustration-header.png" alt="">
-                </div>
+      <header>
+        <nav id="nav">
+          <img src="media/saldana-degisn.png" alt="logo" class="resize" />
+          <a href="#" class="checkbtn">
+            <i id="menu" class="fas fa-bars" onclick="myFunction(this)"></i>
+          </a>
+          <div class="nav-li">
+            <ul>
+              <li>
+                <a class="menu-btn" href="#works-sec" onclick="myFunction(menu)"
+                  >Projects</a
+                >
+                <hr class="menu-li" />
+              </li>
+              <li>
+                <a
+                  class="menu-btn"
+                  href="#aboutme-sec"
+                  onclick="myFunction(menu)"
+                  >About</a
+                >
+                <hr class="menu-li" />
+              </li>
+              <li>
+                <a
+                  class="menu-btn"
+                  href="#contact-sec"
+                  onclick="myFunction(menu)"
+                  >Contact</a
+                >
+                <hr class="menu-li" />
+              </li>
+              <li>
+                <a href="#"
+                  ><img class="mailicon" src="media/Icon-Mail.png" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="presentation">
+        <div class="home">
+          <div class="personal-info">
+            <div class="about-me">
+              <h1 class="title">
+                Hi there. <br />
+                I'm Fernando
+              </h1>
+              <h3 class="subtitle">I'm a Software Developer</h3>
+              <p class="description">
+                I can help you build a product , feature or website Look through
+                some of my work and experience! If you like what you see and
+                have a project you need coded, don’t hesitate to contact me.
+              </p>
             </div>
-        </section>
-        <section id="works-sec" class="works ">
-            <h1 class="works-title reveal">My Recent Works</h1>
-            <hr>
-            <div class="first-card reveal">
-                <div class="first-card-img"><img class="worksimg" src="media/rent-car.PNG" alt="work example">
-                </div>
-                <div class="first-card-text">
-                    <h2 class="workname">Rent a Car</h2>
-                    <p class="work-desc">This project is full stack website for renting cars. The main view of the app
-                        presents a list of different cars to the user, allowing the user to view the details of each
-                        car, rent the car, and see the user's current rents. The app allows the user to add or remove
-                        cars (Only if the User is signed in.).
-                        (Currently under maintenance)
-                    </p>
-                    <div class="works-tools">
-                        <ul>
-                            <li>ReactJS</li>
-                            <li>Redux Toolkit</li>
-                            <li>CSS</li>
-                            <li>Ruby on Rails</li>
-                        </ul>
-                    </div>
-                    <button class="works-btn btn-style"
-                        onclick="window.open('https://rent-a-car-frontend.netlify.app','_blank')">See
-                        live version</button>
-                    <button class="works-btn btn-style"
-                        onclick="window.open('https://github.com/RaoAkif/RentACar-Frontend','_blank')">See
-                        source code</button>
-                </div>
+            <div class="social-media">
+              <ul>
+                <li class="grow">
+                  <a href="https://github.com/fasaldana" target="_blank"
+                    ><i class="fa-brands fa-github fa-xl"></i
+                  ></a>
+                </li>
+                <li class="grow">
+                  <a
+                    href="https://www.linkedin.com/in/fernando-saldana/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin-in fa-xl"></i
+                  ></a>
+                </li>
+                <li class="grow">
+                  <a
+                    href="https://www.instagram.com/ferchoandress_98/"
+                    target="_blank"
+                    ><i class="fa-brands fa-instagram fa-xl"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
-            <div class="work-cards reveal">
-            </div>
-            <div id="overlay"></div>
-        </section>
-        <div class="about-me-container">
-            <section id="aboutme-sec" class="about-me-sec">
-                <div class="about-me-info">
-                    <div class="about-me-text">
-                        <h1 class="about-me-title">About me</h1>
-                        <p class="about-me-desc">
-                            I am a skilled Full-Stack Web Developer who loves making pages with beautiful UI. I have
-                            studied at UTPL (Ecuador) and at Microverse, and I can help you build a product, feature or
-                            website Look through
-                            some of my work and experience! Below you will find a list of my skills and my resume.
-                        </p>
-                        <button class="resume-btn  btn-style"
-                            onclick="window.open('https://docs.google.com/document/d/1pvpfRnla_gRS2jNMX87i_cLGRXQTM8Bt0WCBWmqlbjg/edit?usp=sharing','_blank')">
-                            Get My Resume
-                        </button>
-                    </div>
-                    <img class="about-me-img" src="media/illustration-aboutme.png" alt="">
-                    <img class="about-me-img-mobile" src="media/illustration-about-me-mobile.png" alt="">
-                </div>
-                <hr>
-            </section>
-            <section class="skills">
-                <div class="about-me-skills">
-                    <ul class="lenguage reveal">
-                        <li class="list-title"><img src="media/Rectangle55.png" alt=""> Languages</li>
-                        <li class="list-items">JavaScript</li>
-                        <li class="list-items">Ruby</li>
-                        <li class="list-items">Java</li>
-                        <li class="list-items">Python</li>
-                        <li class="list-items">HTML</li>
-                        <li class="list-items">CSS</li>
-                    </ul>
-                    <ul class="frameworks reveal">
-                        <li class="list-title"><img src="media/Rectangle56.png" alt=""> Frameworks</li>
-                        <li class="list-items">ReactJS</li>
-                        <li class="list-items">Ruby on Rails</li>
-                        <li class="list-items">RSPec</li>
-                        <li class="list-items">CapyBara</li>
-                        <li class="list-items">SpringBoot</li>
-                        <li class="list-items">Django</li>
-                    </ul>
-                    <ul class="skills reveal">
-                        <li class="list-title"><img src="media/Rectangle57.png" alt=""> Skills</li>
-                        <li class="list-items">Web devtools</li>
-                        <li class="list-items">GitHub</li>
-                        <li class="list-items">Bitbucket</li>
-                        <li class="list-items">GitLab</li>
-                        <li class="list-items">Terminal</li>
-                    </ul>
-
-                </div>
-            </section>
+          </div>
+          <div class="homeimg">
+            <img id="img1" src="./media/Illustration-header.png" alt="" />
+          </div>
         </div>
-
-        <section id="contact-sec" class="form-contact">
-            <h2 class="contact">
-                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-            </h2>
-            <form action="https://formspree.io/f/mrgjqqjd" method="post" class="form">
-                <input required class="input-1" maxlength="30" type="text" placeholder="Full name">
-                <input required class="input-1" type="email" placeholder="Email address" id="email">
-                <textarea class="input-2" maxlength="500" name="message" id="text-area" cols="30" rows="10"
-                    placeholder="Enter Text here"></textarea>
-                <button class="ct-submit btn-style">Get in touch</button>
-                <span class="error"></span>
-            </form>
+      </section>
+      <section id="works-sec" class="works">
+        <h1 class="works-title reveal">My Recent Works</h1>
+        <hr />
+        <div class="first-card reveal">
+          <div class="first-card-img">
+            <img class="worksimg" src="media/rent-car.PNG" alt="work example" />
+          </div>
+          <div class="first-card-text">
+            <h2 class="workname">Rent a Car</h2>
+            <p class="work-desc">
+              This project is full stack website for renting cars. The main view
+              of the app presents a list of different cars to the user, allowing
+              the user to view the details of each car, rent the car, and see
+              the user's current rents. The app allows the user to add or remove
+              cars (Only if the User is signed in.). (Currently under
+              maintenance)
+            </p>
+            <div class="works-tools">
+              <ul>
+                <li>ReactJS</li>
+                <li>Redux Toolkit</li>
+                <li>CSS</li>
+                <li>Ruby on Rails</li>
+              </ul>
+            </div>
+            <button
+              class="works-btn btn-style"
+              onclick="window.open('https://rent-a-car-frontend.netlify.app','_blank')"
+            >
+              See live version
+            </button>
+            <button
+              class="works-btn btn-style"
+              onclick="window.open('https://github.com/RaoAkif/RentACar-Frontend','_blank')"
+            >
+              See source code
+            </button>
+          </div>
+        </div>
+        <div class="work-cards reveal"></div>
+        <div id="overlay"></div>
+      </section>
+      <div class="about-me-container">
+        <section id="aboutme-sec" class="about-me-sec">
+          <div class="about-me-info">
+            <div class="about-me-text">
+              <h1 class="about-me-title">About me</h1>
+              <p class="about-me-desc">
+                I am a skilled Full-Stack Web Developer who loves making pages
+                with beautiful UI. With my experience I can help you build a
+                product, feature or website Look through some of my work and
+                experience! Below you will find a list of my skills and my
+                resume.
+              </p>
+              <button
+                class="resume-btn btn-style"
+                onclick="window.open('https://www.canva.com/design/DAFwORa6fHA/3gfVVjjU9o0UN2u9Hm__sg/edit?utm_content=DAFwORa6fHA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton','_blank')"
+              >
+                Get My Resume
+              </button>
+            </div>
+            <img
+              class="about-me-img"
+              src="media/illustration-aboutme.png"
+              alt=""
+            />
+            <img
+              class="about-me-img-mobile"
+              src="media/illustration-about-me-mobile.png"
+              alt=""
+            />
+          </div>
+          <hr />
         </section>
-        <hr>
-        <section class="footer">
-            <footer>
-                <div class="social-media-footer">
-                    <ul>
-                        <li class="grow"><a href="https://github.com/fasaldana" target="_blank"><i
-                                    class="fa-brands fa-github fa-xl"></i></a></li>
-                        <li class="grow"><a href="https://www.linkedin.com/in/fernando-saldana/" target="_blank"><i
-                                    class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
-                        <li class="grow"><a href="https://angel.co/u/fernando-saldana-4" target="_blank"><i
-                                    class="fa-brands fa-angellist fa-xl"></i></a></li>
-                        <li class="grow"><a href="https://twitter.com/Fernand57925964" target="_blank"><i
-                                    class="fa-brands fa-twitter fa-xl"></i></a></li>
-                    </ul>
-                </div>
-            </footer>
+        <section class="skills">
+          <div class="about-me-skills">
+            <ul class="lenguage reveal">
+              <li class="list-title">
+                <img src="media/Rectangle55.png" alt="" /> Languages
+              </li>
+              <li class="list-items">JavaScript</li>
+              <li class="list-items">Ruby</li>
+              <li class="list-items">Java</li>
+              <li class="list-items">HTML</li>
+              <li class="list-items">CSS</li>
+            </ul>
+            <ul class="frameworks reveal">
+              <li class="list-title">
+                <img src="media/Rectangle56.png" alt="" /> Frameworks
+              </li>
+              <li class="list-items">ReactJS</li>
+              <li class="list-items">Ruby on Rails</li>
+              <li class="list-items">RSPec</li>
+              <li class="list-items">CapyBara</li>
+              <li class="list-items">SpringBoot</li>
+            </ul>
+            <ul class="skills reveal">
+              <li class="list-title">
+                <img src="media/Rectangle57.png" alt="" /> Skills
+              </li>
+              <li class="list-items">Web devtools</li>
+              <li class="list-items">GitHub</li>
+              <li class="list-items">Bitbucket</li>
+              <li class="list-items">Jira</li>
+              <li class="list-items">Terminal</li>
+            </ul>
+          </div>
         </section>
+      </div>
 
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <section id="contact-sec" class="form-contact">
+        <h2 class="contact">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h2>
+        <form
+          action="https://formspree.io/f/mrgjqqjd"
+          method="post"
+          class="form"
+        >
+          <input
+            required
+            class="input-1"
+            maxlength="30"
+            type="text"
+            placeholder="Full name"
+          />
+          <input
+            required
+            class="input-1"
+            type="email"
+            placeholder="Email address"
+            id="email"
+          />
+          <textarea
+            class="input-2"
+            maxlength="500"
+            name="message"
+            id="text-area"
+            cols="30"
+            rows="10"
+            placeholder="Enter Text here"
+          ></textarea>
+          <button class="ct-submit btn-style">Get in touch</button>
+          <span class="error"></span>
+        </form>
+      </section>
+      <hr />
+      <section class="footer">
+        <footer>
+          <div class="social-media-footer">
+            <ul>
+              <li class="grow">
+                <a href="https://github.com/fasaldana" target="_blank"
+                  ><i class="fa-brands fa-github fa-xl"></i
+                ></a>
+              </li>
+              <li class="grow">
+                <a
+                  href="https://www.linkedin.com/in/fernando-saldana/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin-in fa-xl"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </section>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </main>
-</body>
-
+  </body>
 </html>

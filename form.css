@@ -56,15 +56,20 @@ section.form-contact {
     display: grid;
     grid-template-columns: 2fr 2fr;
     align-items: center;
+    justify-items: center;
   }
 
   .contact {
     color: #262626;
+    width: 80%;
   }
 
   .form {
     margin-top: 20px;
     padding: 20px;
+    width: 80%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .ct-submit {
